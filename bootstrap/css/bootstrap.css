@@ -1,5 +1,4 @@
 
-
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700,400italic");
 
 .btn-succes,.btn-success:hover, .btn-success:focus, .btn-success.focus, .btn-success:active, .btn-success.active, .open>.dropdown-toggle.btn-success
@@ -19,7 +18,7 @@
 
 html
 {
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -27,7 +26,7 @@ html
 body
 {
     margin: 0;
-    min-width: 360px;
+    min-width: 374px;
 }
 
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary
@@ -151,7 +150,7 @@ button,input,optgroup,select,textarea
     color: inherit;
     font: inherit;
     margin: 0;
-    border-radius:4px;
+    border-radius: 4px;
 }
 
 button
@@ -1673,7 +1672,7 @@ html
 
 body
 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Noto Sans', "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 15px;
     line-height: 1.42857143;
     color: #ffffff;
@@ -1781,7 +1780,7 @@ hr
 
 h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6
 {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Noto Sans', "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     line-height: 1.1;
     color: inherit;
@@ -1864,6 +1863,7 @@ p
     .lead
     {
         font-size: 22.5px;
+        min-width: 220px;
     }
 }
 
@@ -2281,12 +2281,13 @@ pre code
     overflow: auto;
     padding-left: 0px;
     padding-right: 0px;
-    min-width: 200px;
+    min-width: 238px;
 }
 
 .col-xs-1,.col-xs-2,.col-xs-3,.col-xs-4,.col-xs-5,.col-xs-6,.col-xs-7,.col-xs-8,.col-xs-9,.col-xs-10,.col-xs-11,.col-xs-12
 {
     float: left;
+    min-width: 225px;
 }
 
 .col-xs-12
@@ -4000,7 +4001,6 @@ a.btn.disabled,fieldset[disabled] a.btn
 {
     color: #ffffff;
     background-color: #398439;
-    /*border-color: #272727;*/
 }
 
 .btn-default:active:hover,.btn-default.active:hover,.open>.dropdown-toggle.btn-default:hover,.btn-default:active:focus,.btn-default.active:focus,.open>.dropdown-toggle.btn-default:focus,.btn-default:active.focus,.btn-default.active.focus,.open>.dropdown-toggle.btn-default.focus
@@ -5384,8 +5384,8 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 {
     display: block;
     width: 22px;
-    height: 2px;
-    border-radius: 5px solid;
+    height: 3px;
+    border-radius: 2px;
     border-color: transparent;
     background-color: #5cb85c;
 }
@@ -5630,6 +5630,7 @@ textarea.input-group-sm>.form-control,textarea.input-group-sm>.input-group-addon
 {
     background-color: #449D44;
 }
+
 .navbar-default:active
 {
     background-color: #398439;
@@ -6535,17 +6536,19 @@ a.thumbnail:hover,a.thumbnail:focus,a.thumbnail.active
 .list-group
 {
     margin-bottom: 20px;
-    
 }
-.list-group-item-chat{
+
+.list-group-item-chat
+{
     display: block;
     position: relative;
-    margin-top:5px;
-    margin-bottom:5px;
-    margin-left:5px;
-    margin-right:5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
     padding: 10px;
 }
+
 .list-group-item
 {
     position: relative;
@@ -6757,8 +6760,12 @@ a.list-group-item-danger.active,button.list-group-item-danger.active,a.list-grou
 {
     margin-bottom: 21px;
     background-color: #303030;
-    
     border-radius: 4px;
+}
+
+.panel-logo
+{
+    border-radius: 26px;
 }
 
 .panel-body
@@ -6766,11 +6773,13 @@ a.list-group-item-danger.active,button.list-group-item-danger.active,a.list-grou
     padding: 15px;
     border-radius: 4px;
 }
+
 .panel-head
 {
     background-color: #292929;
     border-radius: 4px;
 }
+
 .panel-heading
 {
     padding: 10px 15px;
@@ -8269,7 +8278,7 @@ input,textarea
     box-shadow: none;
     margin-right: 3px;
     color: #ffffff;
-    font-family: Noto+Sans;
+     'Noto Sans',
 }
 
 .form-control:focus,input:focus,textarea:focus
@@ -8484,12 +8493,15 @@ null
     margin-left: auto;
 }
 
-.v_centered{
-    margin-top:auto:
+.v_centered
+{
+    margin-top: auto:
     margin-bottom:auto;
 }
 
-.o_centered{
-    margin-left:auto:
+.o_centered
+{
+    margin-left: auto:
     margin-right:auto;
 }
+
