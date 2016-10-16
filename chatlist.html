@@ -6,13 +6,16 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Morse messenger">
         <title>Morse - Lista Chat</title>
+		<link rel="icon" href="images/icon.ico" type="image/x-icon"> 
+        <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon"> 
         <!-- Bootstrap core CSS -->
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
         <link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
     </head>
     <body>
         <div class="padded">
@@ -44,10 +47,31 @@
                                     <div class="padded text-left o_centered col-xs-12 col-lg-12 col-md-12 col-sm-12 ">
                                         <div class="panel">
                                             <h3 class="text-center">Lista chat</h3> 
+                                            <div class="toolbox">
+                                                <ul class="list-inline nomargin nopadding">
+                                                    <li>
+                                                        <button type="button" class="btn button-round btn-default ">
+                                                            <img src="images/Add.png" class="img-button-round ima-circle ">
+                                                        </button>
+                                                    </li>
+                                                    <!-- prossimi pulsanti 
+                                                    <li>
+                                                        <button type="button" class="btn button-round btn-default " data-pg-id="170">
+                                                            <img src="images/Add.png" class="img-button-round ima-circle " data-pg-id="171">
+                                                        </button>
+                                                    </li>
+                                                    <li data-pg-id="172">
+                                                        <button type="button" class="btn button-round btn-default" data-pg-id="173">
+                                                            <img src="images/Add.png" class="img-button-round ima-circle" data-pg-id="174">
+                                                        </button>
+                                                    </li>
+													-->
+                                                </ul>
+                                            </div>
                                             <div class="panel-body"> 
-                                                <ul class="list-group"> 
-                                                    <a href="#linkallachat">
-                                                        <li class="list-group-item-chat navbar-default container-fluid noborder text-left">Username1 (id)   -  anteprima ultimo messaggio</li>
+                                                <ul class="list-group "> 
+                                                    <a class="o_centered" href="#linkallachat">
+                                                        <li class="list-group-item-chat navbar-default container-fluid noborder o_centered text-left">Username1 (id)   -  anteprima ultimo messaggio</li>
                                                     </a>
                                                 </ul>                                                 
                                             </div>                                             
